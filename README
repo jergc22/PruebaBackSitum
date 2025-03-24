@@ -32,4 +32,6 @@ La documentación de la API generada por Swagger estará disponible en http://lo
 
 
 ## EXTRAS
-LA CONFIGURACION DE LOS LOG Y LA DOCUMENTACION DE SWAGGER UNICAMENTE ESTÁ HECHA EN HabitacionController.java por razones de tiempo
+La configuracion de los logs y swagger están hechas unicamente para HabitacionController.java por razones de tiempo
+
+Las pruebas unitarias y de integracion no me dieron tiempo de hacerlas por problemas de dependencias, aun asi hay un HabitacionControllerTest.java donde se puede ver como habría hecho los test unitarios
