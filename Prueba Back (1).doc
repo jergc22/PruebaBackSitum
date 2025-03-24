@@ -1,0 +1,34 @@
+Prueba Técnica - Backend Engineer
+Objetivo
+Desarrollar un servicio en Spring Boot que exponga una API REST para la gestión de edificios y sus habitaciones.
+Requisitos básicos
+Implementar CRUD completo para edificios y habitaciones. Cada edificio puede contener N habitaciones.
+Definir los campos necesarios en cada entidad según tu criterio. Por ejemplo: 
+Un edificio puede tener nombre, dirección, número de plantas, etc.
+Una habitación puede incluir código, categoría, capacidad, etc.
+Los datos deben persistirse entre ejecuciones. Se puede elegir cualquier método de persistencia.
+No es necesario implementar autenticación ni autorización.
+
+Requisitos deseables:
+
+Implementación de un manejo de errores adecuado.
+Documentación de la API.
+Incluir al menos una prueba unitaria y una prueba de integración.
+Bonus (opcional, pero valorado positivamente)
+Ampliar cobertura en pruebas unitarias e integración.
+Ampliación del modelo con más entidades y relaciones.
+Registro de logs informativos sobre las acciones realizadas.
+Implementación de mensajería asíncrona para notificar modificaciones en las entidades (por ejemplo, al crear un edificio o habitación). Si se implementa, indicar cómo consumir estos mensajes.
+Qué valoraremos positivamente
+Funcionamiento correcto de la API.
+Código bien estructurado y documentado.
+Capacidad de explicar las decisiones tomadas y los enfoques utilizados.
+Qué no valoraremos positivamente
+Dedicación excesiva de horas a la prueba. Si no se dispone de tiempo suficiente para completar algo, se puede incluir una breve explicación de cómo se realizaría.
+Complejidad innecesaria en la toma de decisiones. Se recomienda mantener la solución simple y efectiva.
+
+Tiempo estimado: 
+Dedica un máximo de 4-6 horas a la prueba. 
+Entrega y revisión
+El código debe estar alojado en un repositorio público e incluir un README.md con instrucciones claras para ejecutar el servicio.
+Enviar el enlace del repositorio para su revisión.
